@@ -35,15 +35,19 @@ cd /opt/aivul/aicheck
 ### 2. 赋予执行权限
 
 ```bash
+linux：
 chmod +x ai_agent_security_audit_linux.sh
-chmod +x ai_agent_security_audit_mac.sh
+macos：
+chmod +x ai_agent_security_audit.sh
 ```
 
 ### 3. 运行审计
 
 ```bash
+linux
 ./ai_agent_security_audit_linux.sh
-./ai_agent_security_audit_mac.sh
+macos
+./ai_agent_security_audit.sh
 ```
 
 ### 4. 查看结果
